@@ -11,7 +11,7 @@ html
 {
     overflow: scroll;
     overflow-x: hidden;
-    background-color: gray;
+    background-color: #212529;
 }
 
 header
