@@ -144,21 +144,22 @@ top background
 }
 .main-text
 {
-    text-align: center;
-    padding: 30vh 25%;
+    
+    
     font-size: 30px;
     color: white;
     text-shadow: 2px 2px #0e0e0e77;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -15%);
 }
-@media(max-width: 701px)
+@media(max-width: 700px)
 {
     .main-text
     {
         font-size: 20px; 
-        position: absolute;
-        top: 10%;
-        left: 50%;
-        transform: translate(-50%, -15%);
+
     }   
 }
 
