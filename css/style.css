@@ -137,6 +137,10 @@ top background
     .main-text
     {
         font-size: 20px; 
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, -15%);
     }   
 }
 
