@@ -36,7 +36,7 @@ header .logo
 {
     position: relative;
     font-weight: 700;
-    color: gray;
+    color: white;
     text-decoration: none;
     font-size: 30px;
     text-transform: lowercase;
@@ -64,7 +64,7 @@ header ul li a
     position: relative;
     margin: 0 15px;
     text-decoration: none;
-    color: #00000079;
+    color: gray;
     letter-spacing: 2px;
     font-weight: 500px;
     transition: 0.5s;
@@ -81,6 +81,10 @@ header.sticky ul li a
     {
         background-color: #212529a2;
     }
+    header.sticky ul li a:hover
+    {
+        color: gray;
+    }
     header .logo:hover
     {
         font-size: 32px;
@@ -88,6 +92,7 @@ header.sticky ul li a
     header ul li a:hover
     {
         font-size: 23px;
+        color: white;
     }
 }
 @media(max-width: 700px)
@@ -164,7 +169,6 @@ top background
     .main-text
     {
         font-size: 20px; 
-
     }   
 }
 
