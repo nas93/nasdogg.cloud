@@ -7,12 +7,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 
 html
 {
     background-color: #212529;
+    overflow-x: hidden;
     overflow-y: scroll;
     scroll-behavior: smooth;
     scroll-snap-type: y proximity;

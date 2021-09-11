@@ -9,6 +9,7 @@
     /* Unsplash Wallpaper */
     background-position: center;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 .main-page-text
@@ -59,7 +60,6 @@ align-items: center;
     .main-page-text
     {
         font-size: 20px; 
-        left: 50%;
     }   
     .nav-links-mobile ul li{
         display: block;
