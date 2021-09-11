@@ -1,3 +1,11 @@
+var navBar = document.getElementById("nav-links-mobile");
+    function showMenu() {
+        navBar.style.right = "0";
+    }
+    function hideMenu() {
+        navBar.style.right = "-200px";
+    }
+
 const parallax = document.getElementById("main-page");
 
 window.addEventListener("scroll", function(){
@@ -8,10 +16,3 @@ window.addEventListener("scroll", function(){
     header.classList.toggle("sticky", window.scrollY > 0)
 })
 
-var navBar = document.getElementById("nav-links-mobile");
-    function showMenu() {
-        navBar.style.right = "0";
-    }
-    function hideMenu() {
-        navBar.style.right = "-200px";
-    }
