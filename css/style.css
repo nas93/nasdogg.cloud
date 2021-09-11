@@ -363,20 +363,41 @@ About
     transition: 0.5s;
 }
 
+@media(min-width: 1201px)
+{
+    .media
+    {
+        position: relative;
+        display: flex;
+    }
+    .media ul li a
+    {
+        flex-direction: row-reverse;
+    }
+}
+
 @media(min-width: 701px)
 {
     .media li
     {
         display: inline-block;
+        position: relative;
+        top: 14vh;
+    }
+    .media ul li a
+    {
+        font-size: 25px;
+        margin: 2px 2px;
     }
     .media ul li a:hover
     {
         color: #464646;
-        transition: 0.5s;
+        transition: 0.3s;
     }
     .bottom-to-top a:hover
     {
-        color: gray;
+        color: white;
+        
     }
 }
 @media(max-width: 700px)
