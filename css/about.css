@@ -1,0 +1,99 @@
+#about
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(#7E7F9A, #7E7F9A);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+.box
+{
+    height: 200px;
+    border: 2px solid #272838;
+    position: relative;
+}
+.content p
+{
+    text-align: center;
+}
+@media(min-width: 701px)
+{
+    .box h2
+    {
+        text-transform: lowercase;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 9vh 18vw;
+        opacity: 1;
+        transition: 1s;
+        text-align: center;
+        color: #272838;
+    
+    }
+    #paragraph
+    {
+        opacity: 0;
+        text-transform: lowercase;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: 1;
+        color: #272838;
+    }
+    .box h2:hover
+    {
+        top: 30%;
+        opacity: 0;
+        transition: 0.3s;
+    }
+    .box:hover + #paragraph
+    {
+    
+        opacity: 1;
+        transition: 1s;
+    }
+}
+@media(max-width: 700px)
+{
+    .box h2
+    {
+        text-transform: lowercase;
+        margin: 0;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    
+    }
+    #paragraph
+    {
+        text-transform: lowercase;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 56%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 15px;
+        line-height: 16px;
+    }
+}
