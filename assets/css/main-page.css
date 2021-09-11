@@ -5,7 +5,7 @@
     height: 100vh;
     margin: auto;
     background-image: linear-gradient(rgba(26, 26, 26, 0.3), rgba(26, 26, 26, 0.3)), 
-    url(../assets/images/top6.jpg);
+    url(../images/top6.jpg);
     /* Unsplash Wallpaper */
     background-position: center;
     background-size: cover;
