@@ -1,4 +1,4 @@
-const parallax = document.getElementById("main");
+const parallax = document.getElementById("main-page");
 
 window.addEventListener("scroll", function(){
     let offset = window.pageYOffset;
@@ -8,10 +8,10 @@ window.addEventListener("scroll", function(){
     header.classList.toggle("sticky", window.scrollY > 0)
 })
 
-var nav_links_mobile = document.getElementById("nav-links-mobile");
+var navBar = document.getElementById("nav-links-mobile");
     function showMenu() {
-        nav_links_mobile.style.right = "0";
+        navBar.style.right = "0";
     }
     function hideMenu() {
-        nav_links_mobile.style.right = "-200px";
+        navBar.style.right = "-200px";
     }
