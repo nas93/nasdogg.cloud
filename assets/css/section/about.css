@@ -110,6 +110,10 @@
         text-decoration: wavy;
         color: gray;
     }
+    #tip-mobile
+    {
+        display: none;
+    }
 }
 
 @media(max-width: 1204px)
