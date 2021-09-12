@@ -95,6 +95,8 @@
 }
 .bottom-to-top p a
 {
+    white-space: nowrap;
+    display: inline;
     color: gray;
     transition: 0.3s;
     text-decoration: none;
