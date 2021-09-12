@@ -103,7 +103,7 @@
     top: 30%;
 
 }
-.dev
+.rights
 {
     position: absolute;
     top: 95%;
@@ -111,7 +111,9 @@
     transform: translate(-50%, -50%);
     font-size: small;
 }
-.dev p
+.rights p
 {
+    white-space: nowrap;
+    display: inline;
     color: #6C757D;
 }
