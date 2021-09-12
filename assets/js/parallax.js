@@ -5,8 +5,8 @@ const cloud_parallax = document.getElementById("cloud-parallax");
 window.addEventListener("scroll", function()
 {
 
-    let offset = window.pageYOffset;
+    let offsetY = window.pageYOffset;
+    let offsetX = window.
     parallax.style.backgroundPositionY = offset * 0.7 + "px";
-    cloud_parallax.style.right = offset * 1 + "%";
 
 });

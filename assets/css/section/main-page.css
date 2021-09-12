@@ -56,9 +56,9 @@ align-items: center;
 {
     position: absolute;
     height: 34vh;
-    top: 5050%;
+    top: 50%;
     right: 0%;
-
+    transform: translate(-50%, -50%);
 }
 
 @media(max-width: 700px)
