@@ -5,7 +5,7 @@
     height: 100vh;
     margin: auto;
     background-image: linear-gradient(rgba(26, 26, 26, 0.3), rgba(26, 26, 26, 0.3)), 
-    url(../../images/top6.jpg);
+    url(../../images/background/main-page.jpg);
     /* Unsplash Wallpaper */
     background-position: center;
     background-size: cover;
@@ -52,7 +52,14 @@ align-items: center;
     font-size: large;
 }
 
+.cloud
+{
+    position: absolute;
+    height: 34vh;
+    top: 50vh;
+    right: 35vw;
 
+}
 
 @media(max-width: 700px)
 {

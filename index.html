@@ -3,22 +3,22 @@
     <head>
         <title>bmwjonas.cloud</title>
         <meta charset = "utf-8">
-        <link rel = "stylesheet" href = "assets/css/main/main.css">
-        <link rel = "stylesheet" href = "assets/css/main/html.css">
-        <link rel = "stylesheet" href = "assets/css/main/header.css">
-        <link rel = "stylesheet" href = "assets/css/main/scrollbar.css">
-        <link rel = "stylesheet" href = "assets/css/section/main-page.css">
-        <link rel = "stylesheet" href = "assets/css/section/about.css">
-        <link rel = "stylesheet" href = "assets/css/section/projects.css">
-        <link rel = "stylesheet" href = "assets/css/section/contact.css">
-        <link rel = "stylesheet" href = "assets/css/section/section.css">
+        <link rel = "stylesheet" href = "./assets/css/main/main.css">
+        <link rel = "stylesheet" href = "./assets/css/main/html.css">
+        <link rel = "stylesheet" href = "./assets/css/main/header.css">
+        <link rel = "stylesheet" href = "./assets/css/main/scrollbar.css">
+        <link rel = "stylesheet" href = "./assets/css/section/main-page.css">
+        <link rel = "stylesheet" href = "./assets/css/section/about.css">
+        <link rel = "stylesheet" href = "./assets/css/section/projects.css">
+        <link rel = "stylesheet" href = "./assets/css/section/contact.css">
+        <link rel = "stylesheet" href = "./assets/css/section/section.css">
         <link rel = "preconnect" href = "https://fonts.googleapis.com/%22%3E">
+        <link rel = "icon" href = "./assets/images/elements/title-logo.png" type = " image/x-icon">
         <link rel = "preconnect" href = "https://fonts.gstatic.com/" crossorigin>
+        <meta name = "viewport" content = "width=device-width">
         <link href = "https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400&display=swap" rel = "stylesheet">
         <link href = "https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel = "stylesheet">
         <link href = "https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel = "stylesheet">
-        <link rel = "icon" href = "assets/images/code.png" type = " image/x-icon">
-        <meta name = "viewport" content = "width=device-width">
         <link href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel = "stylesheet" integrity = "sha384-2vfXpqp>>VQGK6TAh5PVlGOFQNHSoD2xbE+QkPxCAFlNEevoEh3Sl0sibVcOQVnN" crossorigin = "anonymous">
     </head>
     <body></body>
@@ -47,25 +47,37 @@
             <div class="main-page-text">
                 <h1>bmwjonas.cloud</h1>
             </div>
+            <img class="cloud" src="./assets/images/elements/cloud1.png" alt="cloud">
+            <!--https://envisionimages.co.uk/clouds-png-hd-images-hd-wallpapers-cloud-free-no-onsite-technicians-no-servers-no-computers-at-the-best-price-3543/-->
         </section>
 
 
         <section id="about">
             <div class="container">
-                <div class="card">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-id-card" aria-hidden="true"></i></div>
                     <div class="content">
                         <h2>about</h2>
-                        <h3></h3>
                         <p>best front-end dev in europe</p>
+                        <p id="tip-mobile">view in desktop</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-code" aria-hidden="true"></i></div>
                     <div class="content">
                         <h2>languages</h2>
-                        <h3></h3>
-                        <p>5 weeks of html and css<br>1 year of NodeJS<br>minuscule amounts of C++</p>
+                        <p>- 5 weeks of html and css<br>- 1 year of NodeJS<br>- minuscule amounts of C++</p>
                     </div>
                 </div>
+                <!-- disabled responsive -->
+                <div class="box" id="contact-pc">
+                    <div class="icon"><i class="fa fa-users" aria-hidden="true"></i></div>
+                    <div class="content">
+                        <h2>contact</h2>
+                        <p><a href="#contact">click me</a></p>
+                    </div>
+                </div>
+                <!-- disabled responsive -->
             </div>
         </section>
 
@@ -98,9 +110,16 @@
                 <p><i class="fa fa-copyright"></i> 2021 All rights reserved</p>
             </div>
         </section>
-        <script src = "assets/js/header.js"></script>
-        <script src = "assets/js/nav-bar.js"></script>
-        <script src = "assets/js/parallax.js"></script>
+        <script src = "./assets/js/header.js"></script>
+        <script src = "./assets/js/nav-bar.js"></script>
+        <script src = "./assets/js/parallax.js"></script>
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/jquery.ScrollMagic.min.js"></script>
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"></script>
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js" integrity="sha512-5/OHwmQzDSBS0Ous4/hlYoWLHd06/d2r7LdKZQVBXOA6PvOqWVXtdboiLTU7lQTGyVoKVTNkwi0ol4gHGlw5ww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/ajax/gsap/2.1.2/TweenLite.min.js"></script>
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineLite.min.js"></script>
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/pugins/CSSPlugin.min.js"></script>
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/pugins/BezierPlugin.min.js"></script>
         <script src = "https://kit.fontawesome.com/11a19cbb0c.js" crossorigin="anonymous"></script>
         <script src = "https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
     </body>

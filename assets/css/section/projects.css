@@ -4,7 +4,7 @@
     height: 100vh;
     position: relative;
     margin: 0;
-    background-image: linear-gradient(rgba(26, 26, 26, 0.3), rgba(26, 26, 26, 0.3)), url(../../images/projects2.jpg);
+    background-image: linear-gradient(rgba(26, 26, 26, 0.3), rgba(26, 26, 26, 0.3)), url(../../images/background/projects.jpg);
     /* Unsplash Wallpaper */
     background-position: center;
     background-size: cover;
