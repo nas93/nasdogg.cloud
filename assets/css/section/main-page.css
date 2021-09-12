@@ -52,12 +52,12 @@ align-items: center;
     font-size: large;
 }
 
-#cloud-parallax
+#cloud-parallax1
 {
     position: relative;
     height: 34vh;
-    top: 50%;
-    right: 0%;
+    top: 60%;
+    right: 50%;
     transform: translate(-50%, -50%);
 }
 
