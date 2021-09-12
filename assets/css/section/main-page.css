@@ -56,8 +56,7 @@ align-items: center;
 {
     position: relative;
     height: 34vh;
-    top: 60%;
-    right: 50%;
+    top: 40%;
     transform: translate(-50%, -50%);
 }
 

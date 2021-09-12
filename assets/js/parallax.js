@@ -9,5 +9,6 @@ window.addEventListener("scroll", function()
     parallax.style.backgroundPositionY = offset * 0.7 + "px";
     if(offset > 0){
         cloud_parallax.style.right = offset * -0.1 + "%";
+        cloud_parallax.style.top = offset * 0.06 + 40 + "%";
     }
 });
