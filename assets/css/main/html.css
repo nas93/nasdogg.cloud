@@ -1,16 +1,14 @@
 html
 {
     background-color: #212529;
-    
+    overflow-x: hidden;
     scroll-behavior: smooth;
-    
+    overflow-y: scroll;
 }
 @media(min-width: 701px)
 {
     html
     {
-        scroll-snap-type: y proximity;
-        overflow-x: hidden;
-        overflow-y: scroll;
+
     }
 }
