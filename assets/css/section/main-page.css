@@ -2,7 +2,7 @@
 {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     margin: auto;
     background-image: linear-gradient(rgba(26, 26, 26, 0.3), rgba(26, 26, 26, 0.3)), 
     url(../../images/background/main-page.jpg);
@@ -50,14 +50,6 @@ align-items: center;
     color: white;
     text-decoration: none;
     font-size: large;
-}
-
-#cloud-parallax1
-{
-    position: relative;
-    height: 34vh;
-    top: 40%;
-    transform: translate(-50%, -50%);
 }
 
 @media(max-width: 700px)
