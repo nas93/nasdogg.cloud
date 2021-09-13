@@ -2,7 +2,7 @@
 {
     width: 100%;
     height: 20vh;
-    background-image: linear-gradient(rgba(26, 26, 26, 0.3), rgba(26, 26, 26, 0.3)), url(../../images/background/projects.jpg);
+    background-image: linear-gradient(rgba(26, 26, 26, 0.3), rgba(26, 26, 26, 0.3)), url(../../images/background/cloud.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
