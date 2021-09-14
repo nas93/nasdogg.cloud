@@ -14,7 +14,7 @@
 .main-page-text
 {
     font-size: 30px;
-    color: white;
+    color: hsl(200, 40%, 40%);
     text-shadow: 2px 2px #0e0e0e77;
     position: absolute;
     top: 37%;
