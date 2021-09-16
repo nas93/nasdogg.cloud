@@ -146,6 +146,7 @@
         border: 4px solid white;
         border-radius: 15px;
         position: relative;
+        background-color: #292929d3;
     }
     h2
     {
