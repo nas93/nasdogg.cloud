@@ -66,6 +66,10 @@
         color: white;
         
     }
+    .bottom-to-top
+    {
+        display: none;
+    }
 }
 @media(max-width: 700px)
 {
@@ -91,7 +95,6 @@
     top:87%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
 }
 .bottom-to-top p a
 {
