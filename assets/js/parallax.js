@@ -1,10 +1,10 @@
-const parallax = document.getElementById("main-page");
-const cloud_parallax = document.getElementById("cloud-parallax1");
+const parallaxMain = document.getElementById("main-page");
+const parallaxC = document.getElementById("contact");
 
 
 window.addEventListener("scroll", function()
 {
-
     let offset = window.pageYOffset;
-    parallax.style.backgroundPositionY = offset * 0.7 + "px";
+    parallaxMain.style.backgroundPositionY = offset * 0.7 + "px";
+    parallaxC.style.backgroundPositionY = offset * 0.7 + 50 + "px";
 });

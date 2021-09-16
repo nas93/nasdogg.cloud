@@ -6,7 +6,9 @@
     /*
     background-color: #EB9486;
     */
-    background-image: linear-gradient(#212529, #212529);
+    background-image: linear-gradient(#212529cb, #212529cb), url(../../images/background/stripes.jpg);
+    background-position: center;
+    background-size: cover;
 }
 .wrapper h1
 {
