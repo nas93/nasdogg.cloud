@@ -64,7 +64,7 @@ align-items: center;
     .nav-links-mobile{
         position: absolute;
         background-color: #212529;
-        height: 100vh;
+        height: 110vh;
         width: 200px;
         top: 0;
         right: -200px;

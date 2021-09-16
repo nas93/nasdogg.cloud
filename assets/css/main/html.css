@@ -5,10 +5,3 @@ html
     scroll-behavior: smooth;
     overflow-y: scroll;
 }
-@media(min-width: 701px)
-{
-    html
-    {
-
-    }
-}
