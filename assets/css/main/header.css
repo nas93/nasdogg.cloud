@@ -69,7 +69,6 @@ header.sticky ul li a
     }
     header ul li:hover::after{
         width: 50%;
-    
     }
     header.sticky ul li::after
     {
