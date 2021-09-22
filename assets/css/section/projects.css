@@ -20,11 +20,13 @@
     padding: 20px;
     border: 3px solid gray;
     border-radius: 50px;   
+    text-align: center;
 }
 .projects-info h1:nth-child(1)
 {
     top: 20%;
     left: 50%;
+    font-size: 40px;
 }
 .projects-info h1:nth-child(2)
 {
@@ -33,6 +35,7 @@
     border: 3px solid gray;
     border-radius: 10px;
     padding: 5px;
+    font-size: 25px;
 }
 .projects-info p
 {
