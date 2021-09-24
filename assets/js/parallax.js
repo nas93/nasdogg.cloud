@@ -6,5 +6,5 @@ window.addEventListener("scroll", function()
 {
     let offset = window.pageYOffset;
     parallaxMain.style.backgroundPositionY = offset * 0.7 + "px";
-    parallaxC.style.backgroundPositionY = offset * 0.7 + 50 + "px";
+    parallaxC.style.backgroundPositionY = offset * 0.7 + 600+ "px";
 });
