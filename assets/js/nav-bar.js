@@ -1,11 +1,18 @@
 var navBar = document.getElementById("nav-links-mobile");
 
-function showMenu() 
-{
-    navBar.style.right = "0";
-}
+console.log(navBar.style.right);
 
-function hideMenu() 
+function showMenu()
+{
+    if (navBar.style.right === "0")
+    {
+        navBar.style.right = "-200px";
+    } else
+    {
+        navBar.style.right = "0";
+    }
+}
+function hideMenu()
 {
     navBar.style.right = "-200px";
 }

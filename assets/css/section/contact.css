@@ -45,7 +45,16 @@
     transition: 0.5s;
 }
 
-
+.media ul li a:hover
+{
+    color: #464646;
+    transition: 0.3s;
+    font-size: 28px;
+}
+.bottom-to-top:hover
+{
+    color: white;
+}
 @media(min-width: 701px)
 {
     .media li
@@ -58,17 +67,6 @@
     {
         font-size: 25px;
         margin: 2px 2px;
-    }
-    .media ul li a:hover
-    {
-        color: #464646;
-        transition: 0.3s;
-        font-size: 28px;
-    }
-    .bottom-to-top a:hover
-    {
-        color: white;
-        
     }
     .bottom-to-top
     {
@@ -90,9 +88,6 @@
         display: block;
     }
 }
-
-
-
 .bottom-to-top
 {
     position:absolute;
