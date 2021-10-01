@@ -18,13 +18,13 @@
 .footer p:nth-child(1)
 {
     top: 50%;
-    left: 33%;
+    left: 28%;
     transform: translate(-50%, -50%);
 }
 .footer p:nth-child(2)
 {
     top: 50%;
-    left: 70%;
+    left: 72%;
     transform: translate(-50%, -50%);
     text-decoration: none;
 }
