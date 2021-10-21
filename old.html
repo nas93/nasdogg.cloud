@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>bmwjonas.cloud</title>
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "./assets/css/main/main.css">
+        <link rel = "stylesheet" href = "./assets/css/main/html.css">
+        <link rel = "stylesheet" href = "./assets/css/main/header.css">
+        <link rel = "stylesheet" href = "./assets/css/main/scrollbar.css">
+        <link rel = "stylesheet" href = "./assets/css/section/main-page.css">
+        <link rel = "stylesheet" href = "./assets/css/section/about.css">
+        <link rel = "stylesheet" href = "./assets/css/section/projects.css">
+        <link rel = "stylesheet" href = "./assets/css/section/contact.css">
+        <link rel = "stylesheet" href = "./assets/css/section/section.css">
+        <link rel="stylesheet" href="./assets/css/section/footer.css">
+        <link rel="stylesheet" href="./assets/css/section/space.css">
+        <link rel = "preconnect" href = "https://fonts.googleapis.com/%22%3E">
+        <link rel = "icon" href = "./assets/images/elements/code-icon.png" type = " image/x-icon">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com/" crossorigin>
+        <meta name = "viewport" content = "width=device-width">
+        <link href = "https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400&display=swap" rel = "stylesheet">
+        <link href = "https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel = "stylesheet">
+        <link href = "https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel = "stylesheet">
+        <link href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel = "stylesheet" integrity = "sha384-2vfXpqp>>VQGK6TAh5PVlGOFQNHSoD2xbE+QkPxCAFlNEevoEh3Sl0sibVcOQVnN" crossorigin = "anonymous">
+    
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo"></a>
+            <ul class="nav-links-pc">
+                <li><a href="#">top</a></li>
+                <li><a href="#about" title="about">about</a></li>
+                <li><a href="#contact" title="contact">contact</a></li>
+            </ul>
+        </header>
+
+
+        <section id="main-page">
+            <nav>
+                <div class="nav-links-mobile" id="nav-links-mobile">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="#about" title="about">about</a></li>
+                        <li><a href="#contact" title="contact">contact</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="main-page-text">
+                <h1>bmwjonas.cloud</h1>
+            </div>
+        </section>
+
+        <section class="space"></section>
+
+        <section id="about">
+            <div class="container">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-id-card" aria-hidden="true"></i></div>
+                    <div class="content">
+                        <h2>about me</h2>
+                        <p>best front-end dev in europe</p>
+                        <p id="tip-mobile">view in desktop</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-code" aria-hidden="true"></i></div>
+                    <div class="content">
+                        <h2>languages</h2>
+                        <p>- 2 months of html and css<br>- 1 year of NodeJS<br>- minuscule amounts of C++</p>
+                    </div>
+                </div>
+                <div class="box" id="contact-pc">
+                    <div class="icon"><i class="fa fa-users" aria-hidden="true"></i></div>
+                    <div class="content">
+                        <h2>contact</h2>
+                        <p><a href="#contact">click me</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="space"></section>
+
+        <section id="contact">
+            <div class="wrapper">
+                <h1>you can find my socials here</h1>
+                <div class="media">
+                    <ul>
+                        <li><a href="https://github.com/bmwjonas"><i class="fa fa-github-square"></a></i></li>
+                        <li><a href="https://steamcommunity.com/profiles/76561199086779513/"><i class="fa fa-steam-square"></i></a></li>
+                        <li><a href="https://discord.gg/nFqGJ9ZtGn"><i class="fab fa-discord"></i></a></li>
+                        <li><a href="https://www.instagram.com/jonasbirkeli/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="mailto:bmwjonas92@gmail.com"><i class="fas fa-envelope-square"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom-to-top">
+                <p><a href="#">bring me to the top</a></p>
+            </div>
+            
+        </section>
+
+        <section id="footer">
+            <div class="footer">
+                <p>made by bmwjonas</p>
+                <p>images from <a href="https://unsplash.com/">unsplash</a></p>
+            </div>
+        </section>
+
+        <script src="assets/js/background-image.js"></script>
+        <script src = "./assets/js/header.js"></script>
+        <script src = "./assets/js/nav-bar.js"></script>
+        <script src = "./assets/js/parallax.js"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-VZ8CRQM2L"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-VZ8CRQM2LF');
+        </script>
+        <script src = "https://kit.fontawesome.com/11a19cbb0c.js" crossorigin="anonymous"></script>
+    </body>
+</html>
