@@ -30,6 +30,21 @@
     transform: translate(-50%, -50%);
 }
 
+@media(max-width: 500px)
+{
+    .text > h1
+    {
+        font-size: 35px;
+        top: 51%;
+    }
+    .text > p
+    {
+        font-size: 15px;
+    }
+}
+
+
+
 #stars
 {
     position: fixed;
